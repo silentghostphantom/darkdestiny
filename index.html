@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+<header class="header">
+    <div class="container">
+        <h1 class="logo">Mi Portafolio</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="inicio" class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h2>Hola, soy [Tu Nombre]</h2>
+            <p>Desarrollador Web apasionado por crear experiencias digitales excepcionales.</p>
+            <a href="#contacto" class="btn-primary">Contáctame</a>
+        </div>
+    </div>
+</section>
+
+<section id="sobre-mi" class="sobre-mi">
+    <div class="container">
+        <h2>Sobre Mí</h2>
+        <div class="sobre-mi-content">
+            <img src="https://via.placeholder.com/400" alt="Mi Foto">
+            <p>Soy un desarrollador web con experiencia en HTML, CSS, JavaScript, y frameworks modernos. Me encanta
+                aprender nuevas tecnologías y aplicar mis conocimientos para resolver problemas de manera creativa.</p>
+        </div>
+    </div>
+</section>
+
+<section id="habilidades" class="habilidades">
+    <div class="container">
+        <h2>Habilidades</h2>
+        <div class="habilidades-grid">
+            <div class="habilidad-item">
+                <i class="fas fa-code"></i>
+                <h3>Desarrollo Frontend</h3>
+                <p>HTML, CSS, JavaScript, React, Bootstrap</p>
+            </div>
+            <div class="habilidad-item">
+                <i class="fas fa-server"></i>
+                <h3>Desarrollo Backend</h3>
+                <p>Node.js, Express, Bases de Datos (MySQL, MongoDB)</p>
+            </div>
+            <div class="habilidad-item">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Diseño Web</h3>
+                <p>UI/UX, Figma, Adobe XD</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="proyectos" class="proyectos">
+    <div class="container">
+        <h2>Proyectos</h2>
+        <div class="proyectos-grid">
+            <div class="proyecto-item">
+                <img src="https://via.placeholder.com/400" alt="Proyecto 1">
+                <h3>Proyecto 1: Sitio Web Personal</h3>
+                <p>Un sitio web personal desarrollado con HTML, CSS y JavaScript para mostrar mi perfil profesional.</p>
+            </div>
+            <div class="proyecto-item">
+                <img src="https://via.placeholder.com/400" alt="Proyecto 2">
+                <h3>Proyecto 2: Aplicación de Tareas</h3>
+                <p>Aplicación web para gestionar tareas diarias, desarrollada con React y Node.js.</p>
+            </div>
+            <div class="proyecto-item">
+                <img src="https://via.placeholder.com/400" alt="Proyecto 3">
+                <h3>Proyecto 3: Tienda en Línea</h3>
+                <p>Tienda en línea construida con React y Firebase, que permite comprar y vender productos fácilmente.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contacto" class="contacto">
+    <div class="container">
+        <h2>Contacto</h2>
+        <p>Si quieres saber más sobre mí o trabajar juntos, no dudes en contactarme.</p>
+        <form class="contacto-form">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Tu Nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" placeholder="Tu Correo Electrónico" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" placeholder="Tu Teléfono">
+            </div>
+            <div class="form-group">
+                <label for="asunto">Asunto</label>
+                <input type="text" id="asunto" placeholder="Asunto del Mensaje">
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" placeholder="Tu Mensaje" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Enviar Mensaje</button>
+        </form>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 Mi Portafolio. Todos los derechos reservados.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
